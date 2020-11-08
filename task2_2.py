@@ -15,7 +15,7 @@ if v == 0:
         f.append(y)
         i1 += 2
         i2 += 2
-print(f)
+    print(f)
 if v == 1:
     print('число значений нечётное')
     long -= 1
@@ -27,6 +27,5 @@ if v == 1:
         f.append(y)
         i1 += 2
         i2 += 2
-print(f)
-
-
+        f.append(l[-1])
+    print(f)
